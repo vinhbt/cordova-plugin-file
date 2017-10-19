@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-file",
-  "version": "4.3.4-dev",
+  "version": "5.0.0",
   "description": "Cordova File Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
@@ -50,9 +50,8 @@
   "license": "Apache-2.0",
   "engines": {
     "cordovaDependencies": {
-      "5.0.0": {
-        "cordova": ">100"
-      }
+      "5.0.0": {"cordova-android": ">=6.3.0"},
+      "4.3.4": {"cordova-android": "<6.3.0"}
     }
   },
   "devDependencies": {
